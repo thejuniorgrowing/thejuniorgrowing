@@ -1,0 +1,63 @@
+baseurl         = "https://theJuniorGrowing.github.io/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "The Junior Growing"
+  subtitle    = "I'm learning now, and I will be the best"
+  copyright   = "© 2019"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = "UA-144783106-1"
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = "kyle.nguyen1412"
+  githubName = "kylenguyen1412"
+  linkedinName = "vohungnguyen"
+  mediumName = ""
+
+  logo = ""
+  orgName = "theJuniorGrowing"
+  orgWebsite = "https://www.linkedin.com/in/vohungnguyen/"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "hungnguyen"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://www.linkedin.com/in/vohungnguyen/"
+  authorDescription = "Your description here"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://www.linkedin.com/in/vohungnguyen/"
+  weight = 95
+
+
